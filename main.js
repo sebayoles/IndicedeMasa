@@ -20,7 +20,7 @@ let mostrarStatusDeIndice = "";
 
 function calculoIndiceMasaCorporal (peso, altura){
   let resultado = peso / (altura * altura);
- return resultado
+ return resultado;
 }
 
 
@@ -29,7 +29,7 @@ function calculoIndiceMasaCorporal (peso, altura){
  alert("Hola " + nombreDeUsuario + " tu indice de masa muscular es " + mostrarResultado);
 
  if (mostrarResultado <= bajoPeso){
-  alert("Tu IMC nos indica que estas en bajo peso")
+  alert("Tu IMC nos indica que estas en bajo peso");
  }
 
 else if (mostrarResultado => sobrePeso);{
